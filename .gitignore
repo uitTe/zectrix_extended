@@ -1,6 +1,9 @@
 # ===== 文档目录（本地保留，不纳入版本控制）=====
 docs/
 
+# ===== AI 助手工作区（记忆文件等，本地保留，不纳入版本控制）=====
+.workbuddy/
+
 # ===== Tauri / Rust =====
 src-tauri/target/
 target/
