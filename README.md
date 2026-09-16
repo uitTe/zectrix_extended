@@ -25,7 +25,7 @@
 
 ## 目录结构
 
-- `src/` — 前端源码：`main.ts`（入口，`createApp` 挂载）、`App.vue`（根组件）、`components/`（业务组件）、`assets/`（静态资源）、`styles.css`
+- `src/` — 前端源码：`main.ts`（入口，`createApp` 挂载）、`App.vue`（根组件）、`components/`（业务组件）、`composables/`（共享状态单例）、`api/`（invoke 封装）、`types/`（类型定义）、`assets/`（静态资源）、`styles.scss`（全局样式，SCSS）
 - `src-tauri/` — Rust 后端：`src/lib.rs`（`#[tauri::command]` 注册）、`tauri.conf.json`（窗口与打包配置）、`capabilities/`（Tauri v2 权限声明）
 - 前端调用 Rust：`import { invoke } from "@tauri-apps/api/core"`
 
